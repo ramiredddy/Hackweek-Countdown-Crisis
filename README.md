@@ -1,8 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hackweek Countdown Crisis
+
+## About the Project
+Hackweek Countdown Crisis is a Next.js-based countdown timer application created for CBIT's Hackweek event. This project demonstrates modern web development practices using Next.js and React.
+
+## Features
+- 🚀 Built with Next.js 14
+- ⚡ Fast and optimized with Turbopack
+- 🎨 Modern UI with Geist font family
+- 📱 Responsive design
+- ⏱️ Real-time countdown functionality
+
+## Prerequisites
+Before you begin, ensure you have the following installed:
+- Node.js (version 18.x or higher)
+- npm, yarn, pnpm, or bun package manager
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -20,6 +45,15 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Project Structure
+```
+hackweek-countdown-crisis/
+├── app/           # Next.js app directory
+├── public/        # Static files
+├── package.json   # Project dependencies
+└── README.md      # Project documentation
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -34,3 +68,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## License
+This project is open source and available under the MIT License.
